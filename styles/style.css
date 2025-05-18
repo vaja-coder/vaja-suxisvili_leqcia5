@@ -46,6 +46,7 @@ div{
 	color: #4E6FAE;
 	font-weight: 700;
 	font-size: 20px;
+	font-family: "BPG Nostalgia", sans-serif;
 }
 
 .long{
@@ -58,7 +59,7 @@ div{
 	vertical-align: middle;
 	margin-left: 66px;
 	color: #4E6FAE;
-	font-family: BPG Square;
+	font-family: "BPG Square", sans-serif;
 }
 .line{
 	border: 2px solid #5012D5;
@@ -76,6 +77,7 @@ div{
 	vertical-align: middle;
 	margin-left: 0px;
 	color: #4E6FAE;
+	font-family: "BPG Square", sans-serif;
 }
 *{
 	box-sizing: border-box;
