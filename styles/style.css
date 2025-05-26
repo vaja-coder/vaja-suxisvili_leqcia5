@@ -1,158 +1,120 @@
 a{
-	font-weight: 700;
-	text-decoration: none;
-	font-size: 11px;
-	color: #000000;
-	font-family: "BPG Square", sans-serif;
+		font-weight: 700;
+		text-decoration: none;
+		font-size: 11px;
+		color: #000000;
+		font-family: "BPG Square", sans-serif;
 }
-.navbar{
-	padding: 21px 102px;
-	background: lightgray;	
+body{  
+  	background-image: url("../images/60ab777e17b2c9be9058c96c_picfair-01350937-dunes-and-desert-landscape-of-namib-fu-PREVIEW-ONLY.jpg");
+  	background-repeat: no-repeat;
+  	background-color: #cccccc;
+  	height: 1303px;
 }
-header{
-	position: sticky;
-	top: 0px;
-	z-index:10;
-}
-li{
-	display: inline-block;
-	margin-left: 35px;
-}
-.title{
-	margin: 46px 0px 0px 137px ;
-	font-family:"BPG Square", sans-serif ;
-	font-weight: 700;
-	font-size: 24px;
-}
-div{
-	position: relative;
-	margin: 27px 0px 0px 138px;
-	z-index:1;
-	height: 357px;
-	width: 362px;
-	background: white;
-	display: inline-block;
-}
-img{
-	
+.camel{
+	top: 900px;
+	left: 0px;
+	position: absolute;
+	width: 120px;
+	animation:  myAnimation 5s;
+	animation-iteration-count: 3;
+	animation-delay: 0.3s;
 	z-index: 2;
 }
-.txt{
+
+@keyframes myAnimation{
+		0%{
+			top: 900px;
+			left: 0px;
+		}
+		70%{
+			top: 800px;
+			left: 600px;
+		}
+		100%{
+			top: 900px;
+			left: 0px;
+		}
+}
+.merchant{
+	top: 900px;
+	right: 0px;
 	position: absolute;
-	bottom: 67px;
-	left: 37px;
-	width: 238px;
-	height: 36px;
-	font-weight: 700;
-	font-size: 10px;
-	color: #8A8787;
+	width: 90px;
+	animation: mirchent 5s;
+	animation-iteration-count: 3;
+	animation-delay: 1s;
+	z-index: 2;
 }
-body{
-	background: lightgray;
+
+@keyframes mirchent{
+	0%{
+		right: 0px;
+		top: 900px;
+	}
+	50%{
+		right: 700px;
+		top: 800px;
+	}
+	100%{
+		right:0px;
+		top: 900px;
+	}
 }
-.clock{
+.the_box{
+	top: 900px;
+	right: 0px;
 	position: absolute;
-	left: 40px;
-	bottom: 40px;
+	width: 50px;
+	animation: the_box 5s;
+	animation-delay: 1s;
+	animation-iteration-count: 3;
+	z-index: 3;	
 }
-.litle_txt{
+@keyframes the_box{
+		0%{
+			top: 900px;
+			right: 0px;
+		}
+		50%{
+			right: 730px;
+			top: 800px;
+		}
+		100%{
+			top: 900px;
+			right: 1433px;
+		}
+}
+.shop1{
 	position: absolute;
-	bottom: 40px;
-	left: 67px;
-	color: #8A8787;
-	font-size: 10px;
-	font-weight: 700;
+	width: 200px;
+	top: 800px;
+	left: 650px;
+	z-index: 0;
 }
-.over_right{
+.shop{
 	position: absolute;
-	color: white;
-	font-weight: 700;
-	font-size: 20px;
-	width: 184px;
-	left: -93px;
+	top: 900px;
+	right: 0px;
+	width: 200px;
+	z-index: 4;
 }
-.a{
+.house{
 	position: absolute;
-	z-index: 3;
-	display: inline-block;
-	width:362px;
-	height: 23px;
-	background: transparent;
-	font-family: "BPG Square", sans-serif;
-	display: inline-block;
-}
-.b{
-	margin-left: 40px;
-}
-.pic_container{
-	position: relative;
-	display: block;
-	margin: 30px 137px 10px 138px;
-	z-index:1;
-	height: 1000px;
-	width: 1380px;
-	background: transparent;
-}
-.big_pic_1{
-	position: absolute;
-	top: 0px;
+	top: 900px;
 	left: 0px;
+	width: 150px;
+	z-index: 6;
 }
-.big_pic_2{
-	position: absolute;
-	bottom: 110px;
-	left: 0px;
+.the_bird{
+		position: absolute;
+		width: 70px;
+		top: 70px;
+		left: 40px;
+		transition: all 5s;
 }
-.small_pic1{
-	position: absolute;
-	right: 230px;
-	top: 0px;
-}
-.small_pic2{
-	position: absolute;
-	top: 50%;
-	right: 50%;
-	transform: translate(128%, -97%);
-}
-.small_pic3{
-	position: absolute;
-	bottom: 200px;
-	right: 230px;
-}
-.links{
-	position: static;
-	display: block;
-	background: #243043;
-	width: 1520px;
-	height: 201px;
-	margin: 0px;
-	padding: 59px 31px;
-}
-.text{
-	color: #818687;
-	font-weight: 700;
-	font-size: 12px;
-	font-family: "BPG Square", sans-serif;
-	display: inline-block;
-	margin-left: 96px;
-}
-.line{
-	position: static;
-	display: block;
-	width: 929px;
-	height: 15px;
-	margin: 14px 0px;
-	background:#243043;
-}
-.mesige{
-	display: inline-block;
-	color: #FFFFFF;
-	margin-left: 112px;
-	font-weight: 400;
-	font-size: 12px;
-}
-.logo{
-	position: absolute;
-	right: 138px;
-	top: 1699px;
-}
+.the_bird:hover {
+	transform: rotate(30deg);
+	top: 800px;
+	left: 700px;
+} 
